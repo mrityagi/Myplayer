@@ -1,6 +1,6 @@
-import 'package:Test3/vidController.dart';
+import 'package:Mymusic/vidController.dart';
 import 'package:flutter/material.dart';
-import 'package:Test3/control.dart';
+import 'package:Mymusic/control.dart';
 import 'package:video_player/video_player.dart';
 
 mainApp() {
@@ -197,7 +197,7 @@ mainApp() {
   );
 
   var mhome_ = Scaffold(
-    backgroundColor: Colors.blueGrey.shade300,
+    backgroundColor: Colors.orange[100],
     body: mbody_,
   );
 
